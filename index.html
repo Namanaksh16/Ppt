@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lost in Translation – Dolce & Gabbana China Controversy | TPCS CA1 2026</title>
+  <meta name="description" content="Academic case study presentation on the Dolce & Gabbana China advertising controversy of 2018. B.Tech TPCS Lab CA1 2026." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav-bar" id="navBar">
+    <div class="nav-logo">Lost in Translation</div>
+    <div class="nav-slides">
+      <span class="nav-current" id="navCurrent">1</span>
+      <span class="nav-sep">/</span>
+      <span class="nav-total">8</span>
+    </div>
+    <div class="nav-controls">
+      <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" aria-label="Previous slide">&#8592;</button>
+      <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)" aria-label="Next slide">&#8594;</button>
+    </div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill" id="progressFill"></div>
+    </div>
+  </nav>
+
+  <!-- Slide Dots -->
+  <div class="slide-dots" id="slideDots">
+    <button class="dot active" onclick="goToSlide(0)" aria-label="Slide 1"></button>
+    <button class="dot" onclick="goToSlide(1)" aria-label="Slide 2"></button>
+    <button class="dot" onclick="goToSlide(2)" aria-label="Slide 3"></button>
+    <button class="dot" onclick="goToSlide(3)" aria-label="Slide 4"></button>
+    <button class="dot" onclick="goToSlide(4)" aria-label="Slide 5"></button>
+    <button class="dot" onclick="goToSlide(5)" aria-label="Slide 6"></button>
+    <button class="dot" onclick="goToSlide(6)" aria-label="Slide 7"></button>
+    <button class="dot" onclick="goToSlide(7)" aria-label="Slide 8"></button>
+  </div>
+
+  <!-- Presentation Container -->
+  <main class="presentation" id="presentation">
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- SLIDE 1 — COVER                                        -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section class="slide slide-cover" id="slide-0" data-slide="0">
+      <div class="cover-bg-pattern"></div>
+      <div class="cover-left">
+        <div class="cover-tag fade-up delay-1">B.Tech TPCS Lab · CA1 · Semester I · 2026</div>
+        <div class="cover-eyebrow fade-up delay-2">CASE STUDY PRESENTATION</div>
+        <h1 class="cover-title fade-up delay-3">
+          Lost in<br /><em>Translation</em>
+        </h1>
+        <div class="cover-rule fade-up delay-4"></div>
+        <p class="cover-subtitle fade-up delay-5">Think Global, Communicate Local</p>
+        <div class="cover-brand-block fade-up delay-6">
+          <span class="brand-name">Dolce &amp; Gabbana</span>
+          <span class="brand-year">China Advertising Controversy · 2018</span>
+        </div>
+        <div class="cover-meta fade-up delay-7">
+          <div class="meta-item">
+            <span class="meta-label">Subject</span>
+            <span class="meta-val">Technical &amp; Professional Communication</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Focus</span>
+            <span class="meta-val">Cross-Cultural Communication Failure</span>
+          </div>
+        </div>
+      </div>
+      <div class="cover-right fade-in delay-3">
+        <div class="cover-visual-card">
+          <div class="cover-initials-art">
+            <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:300px;height:auto;">
+              <!-- Background subtle gradient -->
+              <defs>
+                <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:#FAF8F4;stop-opacity:1"/>
+                  <stop offset="100%" style="stop-color:#F5F0E8;stop-opacity:1"/>
+                </linearGradient>
+                <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#C5973A;stop-opacity:1"/>
+                  <stop offset="100%" style="stop-color:#E8C878;stop-opacity:1"/>
+                </linearGradient>
+                <linearGradient id="navyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" style="stop-color:#1A2744;stop-opacity:1"/>
+                  <stop offset="100%" style="stop-color:#0F1A35;stop-opacity:1"/>
+                </linearGradient>
+                <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="rgba(26,39,68,0.15)"/>
+                </filter>
+              </defs>
+              <rect width="320" height="200" fill="url(#bgGrad)" rx="8"/>
+              <!-- LEFT HALF — Italian/Western -->
+              <rect x="0" y="0" width="155" height="200" fill="none"/>
+              <text x="78" y="80" font-family="Georgia, serif" font-size="42" font-weight="900" fill="#1A2744" text-anchor="middle" letter-spacing="2">D&amp;G</text>
+              <rect x="20" y="92" width="115" height="2" fill="url(#goldLine)" rx="1" opacity="0.6"/>
+              <text x="78" y="118" font-family="Georgia, serif" font-size="11" fill="#4A5568" text-anchor="middle" letter-spacing="4" font-weight="500">MILANO</text>
+              <text x="78" y="140" font-family="Georgia, serif" font-size="9" fill="#718096" text-anchor="middle" letter-spacing="2" font-style="italic">est. 1985</text>
+              <!-- DIVIDER — fracture line -->
+              <line x1="160" y1="0" x2="160" y2="200" stroke="url(#goldLine)" stroke-width="2" stroke-dasharray="4,3" opacity="0.7"/>
+              <polygon points="155,94 165,94 162,106 158,106" fill="url(#goldLine)" opacity="0.9"/>
+              <!-- RIGHT HALF — Chinese cultural -->
+              <text x="242" y="85" font-family="serif" font-size="46" font-weight="900" fill="#8B1A2C" text-anchor="middle">中国</text>
+              <!-- Red accent circles -->
+              <circle cx="195" cy="130" r="6" fill="#8B1A2C" opacity="0.15"/>
+              <circle cx="208" cy="145" r="4" fill="#8B1A2C" opacity="0.1"/>
+              <!-- Brushstroke accent line -->
+              <path d="M 180 108 Q 210 100 242 115 Q 270 128 285 118" stroke="#8B1A2C" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+              <text x="242" y="140" font-family="serif" font-size="10" fill="#8B1A2C" text-anchor="middle" letter-spacing="3" opacity="0.7">上海 · 2018</text>
+              <!-- Bottom labels -->
+              <rect x="10" y="165" width="130" height="22" rx="4" fill="#1A2744" opacity="0.06"/>
+              <text x="75" y="180" font-family="Georgia, serif" font-size="9" fill="#1A2744" text-anchor="middle" letter-spacing="2" font-weight="600">INTENDED MESSAGE</text>
+              <rect x="180" y="165" width="130" height="22" rx="4" fill="#8B1A2C" opacity="0.08"/>
+              <text x="245" y="180" font-family="Georgia, serif" font-size="9" fill="#8B1A2C" text-anchor="middle" letter-spacing="2" font-weight="600">RECEIVED MESSAGE</text>
+            </svg>
+            <div class="dg-year-badge">2018</div>
+          </div>
+          <div class="cover-visual-label">The Brand Moment That Changed Everything</div>
+          <div class="cover-pill-row">
+            <span class="pill pill-red">Cultural Crisis</span>
+            <span class="pill pill-navy">Global Brand</span>
+            <span class="pill pill-gold">China Market</span>
+          </div>
+        </div>
+        <div class="cover-stat-row">
+          <div class="stat-card fade-up delay-8">
+            <div class="stat-num">44</div>
+            <div class="stat-label">Stores in China</div>
+          </div>
+          <div class="stat-card fade-up delay-9">
+            <div class="stat-num">#1</div>
+            <div class="stat-label">Boycott Trend</div>
+          </div>
+          <div class="stat-card fade-up delay-10">
+            <div class="stat-num">24H</div>
+            <div class="stat-label">To Go Viral</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- SLIDE 2 — WHAT HAPPENED?                               -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section class="slide slide-timeline" id="slide-1" data-slide="1">
+      <div class="slide-header fade-up delay-1">
+        <div class="slide-number">02</div>
+        <div class="slide-header-text">
+          <h2 class="slide-title">What Happened?</h2>
+          <p class="slide-desc">A brand crisis that unfolded in five devastating acts over just one week.</p>
+        </div>
+        <div class="slide-tag">NOVEMBER 2018</div>
+      </div>
+
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item fade-up delay-2" data-pos="left">
+          <div class="tl-connector"></div>
+          <div class="tl-card tl-card-blue">
+            <div class="tl-date">Nov 18, 2018</div>
+            <div class="tl-icon">🎬</div>
+            <h3 class="tl-title">Campaign Launch</h3>
+            <p class="tl-text">D&G releases "DG Loves China" — three promotional videos on Weibo showing a Chinese model struggling to eat Italian food (pizza, spaghetti, cannoli) with chopsticks, with a patronising voiceover.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up delay-3" data-pos="right">
+          <div class="tl-connector tl-connector-right"></div>
+          <div class="tl-card tl-card-red">
+            <div class="tl-date">Nov 19, 2018</div>
+            <div class="tl-icon">💥</div>
+            <h3 class="tl-title">Backlash Ignites</h3>
+            <p class="tl-text">Videos go viral with millions condemning the content as racist and demeaning. D&G removes the clips from Weibo within 24 hours — but screenshots and reposts had already spread everywhere.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up delay-4" data-pos="left">
+          <div class="tl-connector"></div>
+          <div class="tl-card tl-card-orange">
+            <div class="tl-date">Nov 20, 2018</div>
+            <div class="tl-icon">📱</div>
+            <h3 class="tl-title">The DM Leak</h3>
+            <p class="tl-text">Fashion watchdog <em>Diet Prada</em> publishes alleged Instagram DMs from Stefano Gabbana using derogatory language about China and its people, while defending the ads. D&G claims accounts were "hacked."</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up delay-5" data-pos="right">
+          <div class="tl-connector tl-connector-right"></div>
+          <div class="tl-card tl-card-dark">
+            <div class="tl-date">Nov 21, 2018</div>
+            <div class="tl-icon">🚫</div>
+            <h3 class="tl-title">Shanghai Show Cancelled</h3>
+            <p class="tl-text">Hours before their grand Shanghai runway show, D&G cancels the event. Chinese celebrities, models, and influencers publicly withdraw en masse. The show was to be their largest ever — with 36 looks across 1,400 outfits.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up delay-6" data-pos="left">
+          <div class="tl-connector"></div>
+          <div class="tl-card tl-card-burgundy">
+            <div class="tl-date">Nov 22+, 2018</div>
+            <div class="tl-icon">📉</div>
+            <h3 class="tl-title">Wider Consequences</h3>
+            <p class="tl-text">Tmall, JD.com, Secoo, and Yoox Net-a-Porter remove all D&G products. #BoycottDolce trends. Founders release awkward apology video. Brand's China revenue suffers long-term damage.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- SLIDE 3 — WHY DID IT FAIL?                             -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section class="slide slide-breakdown" id="slide-2" data-slide="2">
+      <div class="slide-header fade-up delay-1">
+        <div class="slide-number">03</div>
+        <div class="slide-header-text">
+          <h2 class="slide-title">Why Did It Fail?</h2>
+          <p class="slide-desc">A communication breakdown across four interconnected dimensions.</p>
+        </div>
+        <div class="slide-tag">ANALYSIS</div>
+      </div>
+
+      <div class="breakdown-center-label fade-up delay-2">
+        <div class="breakdown-hub">
+          <div class="hub-inner">
+            <div class="hub-icon">⚠️</div>
+            <div class="hub-text">Communication<br />Breakdown</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="breakdown-grid">
+        <div class="breakdown-card fade-up delay-3 bd-cultural">
+          <div class="bd-icon-wrap">
+            <span class="bd-icon">🏮</span>
+          </div>
+          <h3 class="bd-title">Cultural</h3>
+          <ul class="bd-list">
+            <li>Reduced rich Chinese culture to a single stereotype</li>
+            <li>Framed chopsticks as comically inadequate tools</li>
+            <li>Depicted Chinese people as unable to handle "superior" Italian food</li>
+            <li>Tone was condescending and orientalist</li>
+          </ul>
+        </div>
+
+        <div class="breakdown-card fade-up delay-4 bd-linguistic">
+          <div class="bd-icon-wrap">
+            <span class="bd-icon">🗣️</span>
+          </div>
+          <h3 class="bd-title">Linguistic</h3>
+          <ul class="bd-list">
+            <li>Voiceover was patronising and infantilising in Chinese</li>
+            <li>Chopstick references carried mocking subtext</li>
+            <li>Alleged DMs used derogatory language about China</li>
+            <li>No culturally sensitive Mandarin copywriting review</li>
+          </ul>
+        </div>
+
+        <div class="breakdown-card fade-up delay-5 bd-social">
+          <div class="bd-icon-wrap">
+            <span class="bd-icon">📡</span>
+          </div>
+          <h3 class="bd-title">Social</h3>
+          <ul class="bd-list">
+            <li>Viral speed of Weibo amplified outrage instantly</li>
+            <li>No crisis monitoring or social listening in place</li>
+            <li>"Hacked account" denial seen as dishonest</li>
+            <li>Influencers & celebrities publicly withdrew — accelerating the cascade</li>
+          </ul>
+        </div>
+
+        <div class="breakdown-card fade-up delay-6 bd-brand">
+          <div class="bd-icon-wrap">
+            <span class="bd-icon">👔</span>
+          </div>
+          <h3 class="bd-title">Brand / Communication</h3>
+          <ul class="bd-list">
+            <li>No Chinese cultural consultants were involved</li>
+            <li>No local audience testing before launch</li>
+            <li>Crisis communication was slow, implausible and insincere</li>
+            <li>Brand positioned as arrogant towards a market worth billions</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- SLIDE 4 — CULTURAL ANALYSIS                            -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section class="slide slide-analysis" id="slide-3" data-slide="3">
+      <div class="slide-header fade-up delay-1">
+        <div class="slide-number">04</div>
+        <div class="slide-header-text">
+          <h2 class="slide-title">Cultural Analysis</h2>
+          <p class="slide-desc">Intended message vs. audience interpretation — a critical decoding.</p>
+        </div>
+        <div class="slide-tag">CRITICAL ANALYSIS</div>
+      </div>
+
+      <div class="analysis-split fade-up delay-2">
+        <div class="analysis-col analysis-intended">
+          <div class="analysis-col-header">
+            <span class="analysis-col-icon">🎯</span>
+            <h3>D&G's Intended Message</h3>
+          </div>
+          <div class="analysis-item">
+            <div class="ai-label">Cultural Stereotype</div>
+            <div class="ai-text">Playful cultural fusion — Italian luxury "meets" China through food.</div>
+          </div>
+          <div class="analysis-item">
+            <div class="ai-label">Representation</div>
+            <div class="ai-text">Chinese woman as brand ambassador for a global campaign.</div>
+          </div>
+          <div class="analysis-item">
+            <div class="ai-label">Tone</div>
+            <div class="ai-text">Humorous, light-hearted, fashion-forward and chic.</div>
+          </div>
+          <div class="analysis-item">
+            <div class="ai-label">Power Dynamics</div>
+            <div class="ai-text">Italian brand generously sharing its culture with China.</div>
+          </div>
+          <div class="analysis-item">
+            <div class="ai-label">Localization</div>
+            <div class="ai-text">Produced in China, with Chinese cast — assumed this was enough.</div>
+          </div>
+          <div class="analysis-item">
+            <div class="ai-label">Audience Testing</div>
+            <div class="ai-text">None. Campaign was approved entirely within the Italian design team.</div>
+          </div>
+        </div>
+
+        <div class="analysis-arrow-col">
+          <div class="analysis-vs-arrow">
+            <div class="arrow-shaft"></div>
+            <div class="arrow-vs">VS</div>
+            <div class="arrow-shaft"></div>
+          </div>
+        </div>
+
+        <div class="analysis-col analysis-received">
+          <div class="analysis-col-header">
+            <span class="analysis-col-icon">👁️</span>
+            <h3>Chinese Audience's Interpretation</h3>
+          </div>
+          <div class="analysis-item ai-neg">
+            <div class="ai-label">Cultural Stereotype</div>
+            <div class="ai-text">Offensive orientalism — chopsticks used as a prop to mock Chinese identity and tradition.</div>
+          </div>
+          <div class="analysis-item ai-neg">
+            <div class="ai-label">Representation</div>
+            <div class="ai-text">Chinese woman portrayed as childlike and incompetent — a cultural caricature.</div>
+          </div>
+          <div class="analysis-item ai-neg">
+            <div class="ai-label">Tone</div>
+            <div class="ai-text">Condescending, patronising, and demeaning to Chinese consumers.</div>
+          </div>
+          <div class="analysis-item ai-neg">
+            <div class="ai-label">Power Dynamics</div>
+            <div class="ai-text">Western cultural superiority imposed on China — deeply colonialist in subtext.</div>
+          </div>
+          <div class="analysis-item ai-neg">
+            <div class="ai-label">Localization</div>
+            <div class="ai-text">Superficial — only the face changed; the mindset remained entirely Western.</div>
+          </div>
+          <div class="analysis-item ai-neg">
+            <div class="ai-label">Audience Testing</div>
+            <div class="ai-text">Zero local input meant zero warning — the campaign was a predictable disaster.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="analysis-quote fade-up delay-7">
+        <span class="quote-mark">"</span>
+        <p>It's not enough to show up in someone's market. You must understand their world before you ask them to enter yours.</p>
+        <span class="quote-attr">— Cross-Cultural Communication Principle</span>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- SLIDE 5 — CONSEQUENCES                                 -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section class="slide slide-consequences" id="slide-4" data-slide="4">
+      <div class="slide-header fade-up delay-1">
+        <div class="slide-number">05</div>
+        <div class="slide-header-text">
+          <h2 class="slide-title">Consequences</h2>
+          <p class="slide-desc">The measurable and reputational cost of one culturally illiterate campaign.</p>
+        </div>
+        <div class="slide-tag">IMPACT</div>
+      </div>
+
+      <div class="consequences-grid">
+        <div class="cons-card cons-large fade-up delay-2">
+          <div class="cons-icon">📱</div>
+          <h3 class="cons-title">Consumer Boycott</h3>
+          <p class="cons-text">Millions of Chinese consumers joined the #BoycottDolce movement. The campaign was shared millions of times on Weibo and WeChat. Chinese celebrities posted public statements denouncing the brand and returned gifted items.</p>
+          <div class="cons-tag">Social Media Storm</div>
+        </div>
+
+        <div class="cons-card fade-up delay-3">
+          <div class="cons-icon">🛍️</div>
+          <h3 class="cons-title">E-Commerce Removal</h3>
+          <p class="cons-text">Tmall, JD.com, Secoo and Yoox Net-a-Porter all removed D&G products within days. The brand lost access to China's largest retail channels almost overnight.</p>
+          <div class="cons-tag">Retail Collapse</div>
+        </div>
+
+        <div class="cons-card fade-up delay-4">
+          <div class="cons-icon">🚫</div>
+          <h3 class="cons-title">Shanghai Show Cancelled</h3>
+          <p class="cons-text">The most ambitious fashion event in D&G history — cancelled hours before it began. A planned spectacle involving 1,400 outfits and 36 runway looks became a crisis scene.</p>
+          <div class="cons-tag">Operational Failure</div>
+        </div>
+
+        <div class="cons-card fade-up delay-5">
+          <div class="cons-icon">🏪</div>
+          <h3 class="cons-title">44 Stores at Risk</h3>
+          <p class="cons-text">D&G had 44 stores operating in China before the crisis — representing one of their most critical growth markets globally. The controversy placed all of them under severe commercial pressure.</p>
+          <div class="cons-tag">Business Impact</div>
+        </div>
+
+        <div class="cons-card fade-up delay-6">
+          <div class="cons-icon">💔</div>
+          <h3 class="cons-title">Reputation Damage</h3>
+          <p class="cons-text">The apology video — in which the founders claimed to be hacked — was widely mocked as insincere. Brand trust in China suffered deep, long-lasting damage that proved very difficult to repair.</p>
+          <div class="cons-tag">Brand Credibility</div>
+        </div>
+
+        <div class="cons-card cons-quote fade-up delay-7">
+          <div class="cons-icon">📚</div>
+          <h3 class="cons-title">Academic Legacy</h3>
+          <p class="cons-text">The controversy is now taught as a defining case study in global marketing, cross-cultural communication, and luxury brand management at institutions worldwide — including Harvard Business School.</p>
+          <div class="cons-tag">Industry Impact</div>
+        </div>
+      </div>
+
+      <div class="consequences-source fade-up delay-8">
+        Sources: The Guardian, Jing Daily, Harvard Business Review, University of Pennsylvania Wharton School
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- SLIDE 6 — REDESIGNED CAMPAIGN                          -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section class="slide slide-campaign" id="slide-5" data-slide="5">
+      <div class="slide-header fade-up delay-1">
+        <div class="slide-number">06</div>
+        <div class="slide-header-text">
+          <h2 class="slide-title">Our Redesigned Campaign</h2>
+          <p class="slide-desc">What a culturally intelligent luxury campaign could look like instead.</p>
+        </div>
+        <div class="slide-tag">CREATIVE SOLUTION</div>
+      </div>
+
+      <div class="campaign-hero fade-up delay-2">
+        <div class="campaign-name-block">
+          <div class="campaign-eyebrow">D&amp;G Reimagined · A Campaign Concept</div>
+          <h2 class="campaign-name">"Culture Connects Us"</h2>
+          <div class="campaign-tagline">文化連結我們 — Where Every Story Belongs</div>
+        </div>
+        <div class="campaign-hero-visual">
+          <svg viewBox="0 0 500 90" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:500px;height:auto;opacity:0.9;">
+            <defs>
+              <linearGradient id="heroGold" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#C5973A;stop-opacity:0.8"/>
+                <stop offset="50%" style="stop-color:#E8C878;stop-opacity:1"/>
+                <stop offset="100%" style="stop-color:#C5973A;stop-opacity:0.8"/>
+              </linearGradient>
+            </defs>
+            <!-- Italian craft silhouette (left) -->
+            <text x="20" y="55" font-family="Georgia,serif" font-size="13" fill="rgba(255,255,255,0.6)" letter-spacing="3">LEATHER · SILK · CRAFT</text>
+            <!-- Center bridge -->
+            <line x1="200" y1="45" x2="300" y2="45" stroke="url(#heroGold)" stroke-width="1.5" stroke-dasharray="none"/>
+            <!-- Chinese cultural elements (right) -->
+            <text x="310" y="55" font-family="Georgia,serif" font-size="13" fill="rgba(255,255,255,0.6)" letter-spacing="3">丝绸 · 漆器 · 工艺</text>
+            <!-- Bridge heart -->
+            <circle cx="250" cy="45" r="10" fill="none" stroke="url(#heroGold)" stroke-width="1.5"/>
+            <text x="250" y="49" font-family="serif" font-size="12" fill="#E8C878" text-anchor="middle">✦</text>
+            <!-- Campaign name banner -->
+            <text x="250" y="20" font-family="Georgia,serif" font-size="10" fill="rgba(255,255,255,0.45)" text-anchor="middle" letter-spacing="8" font-weight="600">CULTURE CONNECTS US</text>
+            <!-- Decorative lines -->
+            <line x1="20" y1="68" x2="480" y2="68" stroke="rgba(197,151,58,0.3)" stroke-width="0.5"/>
+            <text x="250" y="82" font-family="serif" font-size="9" fill="rgba(255,255,255,0.3)" text-anchor="middle" letter-spacing="4">SHANGHAI · MILAN · 2025</text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="campaign-grid">
+        <div class="camp-card fade-up delay-3">
+          <div class="camp-card-icon">✍️</div>
+          <h4 class="camp-card-title">New Tagline</h4>
+          <p class="camp-card-body"><strong>"Culture Connects Us"</strong><br /><em>文化連結我們</em><br /><br />Bilingual. Equal. Celebratory. No hierarchy between cultures — a genuine conversation between equals.</p>
+        </div>
+
+        <div class="camp-card fade-up delay-4">
+          <div class="camp-card-icon">🎥</div>
+          <h4 class="camp-card-title">Ad Concept</h4>
+          <p class="camp-card-body">Three Chinese artisans — a silk weaver, a calligrapher, a chef — are shown collaborating with Italian craftspeople. Neither culture teaches the other; both <strong>learn together</strong>. Shot in China, scripted in Mandarin.</p>
+        </div>
+
+        <div class="camp-card fade-up delay-5">
+          <div class="camp-card-icon">🎨</div>
+          <h4 class="camp-card-title">Visual Direction</h4>
+          <p class="camp-card-body">Warm gold and deep red tones. Slow, cinematic pacing. Close-up texture shots of Chinese silk alongside Italian leather. No voiceover — let the imagery speak. Directed by a Chinese director.</p>
+        </div>
+
+        <div class="camp-card fade-up delay-6">
+          <div class="camp-card-icon">👥</div>
+          <h4 class="camp-card-title">Target Audience</h4>
+          <p class="camp-card-body">Chinese luxury consumers aged 25–45. Urban. Globally educated but rooted in cultural pride. Aspirational — not seeking validation from Western brands, but <strong>partnership</strong>.</p>
+        </div>
+
+        <div class="camp-card fade-up delay-7">
+          <div class="camp-card-icon">📣</div>
+          <h4 class="camp-card-title">Communication Channels</h4>
+          <p class="camp-card-body">Weibo, WeChat, Xiaohongshu (RED), Bilibili. Partnering with respected Chinese KOLs — not just fashion influencers, but cultural commentators and heritage advocates.</p>
+        </div>
+
+        <div class="camp-card camp-card-highlight fade-up delay-8">
+          <div class="camp-card-icon">⭐</div>
+          <h4 class="camp-card-title">Key Difference</h4>
+          <p class="camp-card-body">This campaign was <strong>co-created with Chinese cultural consultants, tested with focus groups in Shanghai, Beijing &amp; Chengdu</strong> before launch — and celebrates Chinese consumers as <em>protagonists</em>, not props.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- SLIDE 7 — LESSONS                                      -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section class="slide slide-lessons" id="slide-6" data-slide="6">
+      <div class="slide-header fade-up delay-1">
+        <div class="slide-number">07</div>
+        <div class="slide-header-text">
+          <h2 class="slide-title">Lessons for Global Brands</h2>
+          <p class="slide-desc">Six principles every global communicator must embed into their practice.</p>
+        </div>
+        <div class="slide-tag">TAKEAWAYS</div>
+      </div>
+
+      <div class="lessons-grid">
+        <div class="lesson-card fade-up delay-2">
+          <div class="lesson-num">01</div>
+          <div class="lesson-icon">🔍</div>
+          <h3 class="lesson-title">Research Before Launching</h3>
+          <p class="lesson-text">Deep cultural market research must precede every campaign. Understand history, values, social norms and current sensitivities before creating a single frame of content.</p>
+          <div class="lesson-example">D&G failed to research China's deep pride in its cultural heritage and history.</div>
+        </div>
+
+        <div class="lesson-card fade-up delay-3">
+          <div class="lesson-num">02</div>
+          <div class="lesson-icon">🌏</div>
+          <h3 class="lesson-title">Localise, Don't Just Translate</h3>
+          <p class="lesson-text">Translation changes words. Localisation changes meaning, context, and emotion. A campaign must feel native to its audience — not merely adapted from another culture.</p>
+          <div class="lesson-example">D&G translated visually (Chinese cast) but not culturally (Western mindset remained).</div>
+        </div>
+
+        <div class="lesson-card fade-up delay-4">
+          <div class="lesson-num">03</div>
+          <div class="lesson-icon">🤝</div>
+          <h3 class="lesson-title">Work with Local Cultural Experts</h3>
+          <p class="lesson-text">Hire cultural consultants, local creative directors and community advocates as true collaborators — not decorative add-ons. They are your most valuable risk mitigators.</p>
+          <div class="lesson-example">No Chinese cultural expert reviewed the D&G campaign before launch.</div>
+        </div>
+
+        <div class="lesson-card fade-up delay-5">
+          <div class="lesson-num">04</div>
+          <div class="lesson-icon">🧪</div>
+          <h3 class="lesson-title">Test with Local Audiences</h3>
+          <p class="lesson-text">Run focus groups in the target market before any campaign goes live. Real audience feedback is the most cost-effective crisis prevention tool available.</p>
+          <div class="lesson-example">A single Shanghai focus group could have prevented the entire D&G crisis.</div>
+        </div>
+
+        <div class="lesson-card fade-up delay-6">
+          <div class="lesson-num">05</div>
+          <div class="lesson-icon">🚫</div>
+          <h3 class="lesson-title">Avoid Cultural Stereotypes</h3>
+          <p class="lesson-text">Stereotype-based humour almost always lands as mockery in cross-cultural contexts. Celebrate cultures with depth and specificity — not with shortcuts and caricatures.</p>
+          <div class="lesson-example">Chopsticks as a comedic prop reduced an entire culture to a single cliché.</div>
+        </div>
+
+        <div class="lesson-card fade-up delay-7">
+          <div class="lesson-num">06</div>
+          <div class="lesson-icon">🛡️</div>
+          <h3 class="lesson-title">Have a Crisis-Response Plan</h3>
+          <p class="lesson-text">A culturally aware crisis plan must exist before launch. Rapid, genuine, well-informed apologies matter far more than legal disclaimers or implausible denials.</p>
+          <div class="lesson-example">The "hacked account" denial destroyed whatever credibility remained.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- SLIDE 8 — REFERENCES + CONCLUSION                      -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section class="slide slide-references" id="slide-7" data-slide="7">
+      <div class="slide-header fade-up delay-1">
+        <div class="slide-number">08</div>
+        <div class="slide-header-text">
+          <h2 class="slide-title">Conclusion &amp; References</h2>
+          <p class="slide-desc">What the D&G case teaches us about the cost of cultural ignorance.</p>
+        </div>
+        <div class="slide-tag">CLOSING</div>
+      </div>
+
+      <div class="ref-layout">
+        <div class="ref-conclusion fade-up delay-2">
+          <h3 class="ref-conc-title">Conclusion</h3>
+          <p class="ref-conc-text">
+            The Dolce &amp; Gabbana China controversy of 2018 is more than a marketing failure — it is a masterclass in the catastrophic consequences of cultural arrogance. A brand that spent decades building equity in one of the world's most valuable luxury markets erased it in less than 72 hours through a campaign that was never tested, never questioned, and never understood by its intended audience.
+          </p>
+          <p class="ref-conc-text">
+            The lesson is clear: <strong>global scale without cultural intelligence is not a strategy — it is a liability.</strong> True communication demands not just transmission, but understanding. Not just reach, but resonance. Not just presence, but partnership.
+          </p>
+          <div class="conc-pull-quote">
+            <span class="cpq-mark">"</span>
+            <p>To communicate globally, you must think locally — and feel humanly.</p>
+          </div>
+        </div>
+
+        <div class="ref-sources fade-up delay-3">
+          <h3 class="ref-sources-title">References</h3>
+          <div class="ref-list">
+            <div class="ref-item">
+              <div class="ref-num">01</div>
+              <div class="ref-detail">
+                <div class="ref-source">The Guardian</div>
+                <div class="ref-title-text">Dolce &amp; Gabbana row: Chinese consumers react to 'racist' ad campaign (2018)</div>
+                <div class="ref-url">theguardian.com</div>
+              </div>
+            </div>
+            <div class="ref-item">
+              <div class="ref-num">02</div>
+              <div class="ref-detail">
+                <div class="ref-source">Jing Daily</div>
+                <div class="ref-title-text">How the Dolce &amp; Gabbana Crisis Unfolded in China's Luxury Market (2018)</div>
+                <div class="ref-url">jingdaily.com</div>
+              </div>
+            </div>
+            <div class="ref-item">
+              <div class="ref-num">03</div>
+              <div class="ref-detail">
+                <div class="ref-source">Harvard Business School</div>
+                <div class="ref-title-text">Brand Crisis and Cross-Cultural Communication: The D&G Case — referenced in course materials</div>
+                <div class="ref-url">hbs.edu</div>
+              </div>
+            </div>
+            <div class="ref-item">
+              <div class="ref-num">04</div>
+              <div class="ref-detail">
+                <div class="ref-source">University of Pennsylvania – Wharton</div>
+                <div class="ref-title-text">Cultural Sensitivity in Global Marketing: Analysis of the D&G Controversy</div>
+                <div class="ref-url">knowledge.wharton.upenn.edu</div>
+              </div>
+            </div>
+            <div class="ref-item">
+              <div class="ref-num">05</div>
+              <div class="ref-detail">
+                <div class="ref-source">Diet Prada / Instagram</div>
+                <div class="ref-title-text">Original publication of alleged Stefano Gabbana DM screenshots — November 2018</div>
+                <div class="ref-url">instagram.com/dietprada</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ref-footer fade-up delay-6">
+        <div class="ref-footer-brand">B.Tech TPCS Lab · CA1 · Semester I · 2026</div>
+        <div class="ref-footer-title">Lost in Translation: Think Global, Communicate Local</div>
+        <div class="ref-footer-sub">Case Study: Dolce &amp; Gabbana — China Advertising Controversy, 2018</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Keyboard hint -->
+  <div class="keyboard-hint" id="keyboardHint">
+    Use ← → arrow keys or click to navigate
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
